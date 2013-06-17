@@ -1,0 +1,12 @@
+.DS_Store
+build.log
+build
+npm-debug.log
+tmp
+.map
+.idea
+.project
+.settings
+alloy-unit-test.iml
+
+Resources/*
