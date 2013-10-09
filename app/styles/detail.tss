@@ -1,0 +1,4 @@
+".container": {
+  layout: "vertical",
+  backgroundColor: "white"
+}

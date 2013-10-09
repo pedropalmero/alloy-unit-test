@@ -1,5 +1,9 @@
 <Alloy>
+	<Collection src="book"/>
+
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+	    <TableView dataCollection="book" onClick="showDetail" id="table">
+	        <Require src="row" />
+	    </TableView>
 	</Window>
 </Alloy>

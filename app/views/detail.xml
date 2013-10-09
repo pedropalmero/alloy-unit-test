@@ -1,0 +1,17 @@
+<Alloy>
+   <Collection src="book" />
+
+   <Window id="win" title="Book">
+       <View class="container">
+           <Label>Title</Label>
+           <Label id="title"></Label>
+
+           <Button id="toggleAuthorButton" onClick="toggleAuthor">Show author</Button>
+           <Label id="authorLabel" visible="false">Author</Label>
+           <Label id="author" visible="false"></Label>
+
+           <Button class="button" onClick="closeWindow">Close</Button>
+       </View>
+   </Window>
+
+</Alloy>
